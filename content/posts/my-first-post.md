@@ -1,7 +1,7 @@
 +++
-draft = true
+draft = false
 date = 2024-05-12T22:58:35+02:00
-title = "test"
+title = "First blog test"
 description = "this creates a new page"
 slug = ""
 authors = []
