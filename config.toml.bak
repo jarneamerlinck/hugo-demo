@@ -1,0 +1,60 @@
+# baseurl = "http://www.example.com"
+title = "Demo of Hugo"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[services]
+[services.disqus]
+disqusShortname = "eragon"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Jarne"
+  # info = "Demo of hugo with the coder theme"
+  description = "Demo of hugo with the coder theme"
+  keywords = "blog,developer,tutorial"
+  gravatar = "jarneamerlinck@pm.me"
+
+  favicon = "/img/favicon-32x32.png"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/jarneamerlinck/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa-brands fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/jarneamerlinck/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
