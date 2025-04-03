@@ -34,6 +34,7 @@ When you have it installed you can create a new hugo project.
 There are 2 ways to do this
 
 - Create a new Hugo project
+  - if you want to use some other themes look them up at [themes.gohugo](https://themes.gohugo.io/)
 - Fork this [example repo](https://github.com/jarneamerlinck/hugo-demo)
 
 
